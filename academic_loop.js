@@ -21,7 +21,7 @@ function printStanding (gpa) {
   if (typeof gpa !== 'number') {
     console.log('The input is not a valid number.')
   } else if (gpa < 2.0) {
-      console.log('Student is on probation.')
+    console.log('Student is on probation.')
   } else if (gpa < 3.40) {
     console.log('Student is in good standing.')
   } else if (gpa < 3.60) {
@@ -36,4 +36,4 @@ function printStanding (gpa) {
 printStanding(2.5)
 printStanding(1.9)
 printStanding(3.6)
-printStanding("four")
+printStanding('four')
